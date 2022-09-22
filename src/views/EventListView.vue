@@ -33,7 +33,6 @@
 // @ is an alias to /src
 import EventCard from '@/components/EventCard.vue'
 import EventService from '@/services/EventService.js'
-
 export default {
   name: 'EventListView',
   props: {

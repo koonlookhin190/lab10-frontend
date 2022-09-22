@@ -10,6 +10,7 @@ import NetWorkErrorView from '@/views/NetworkErrorView.vue'
 import AddEvent from '@/views/EventForm.vue'
 import NProgress from 'nprogress'
 import GStore from '@/store'
+//import ParticipantService from '@/services/ParticipantService'
 import EventService from '@/services/EventService'
 import OrganizerService from '@/services/OrganizerService'
 const routes = [
