@@ -42,7 +42,7 @@
       <BaseInput v-model="event.location" type="text" label="Location" />
 
       <h3>Who is your organizer?</h3>
-      <label>Select an Organizer</label>
+      <!-- <label>Select an Organizer</label>
       <select v-model="event.organizer.id">
         <option
           v-for="option in GStore.organizers"
@@ -52,7 +52,12 @@
         >
           {{ option.name }}
         </option>
-      </select>
+      </select> -->
+      <BaseSelect
+        :options="GStore.organizers"
+        v-model="event.organizer.id"
+        labe="Select an Organizer"
+      />
       <button type="submit">Submit</button>
     </form>
 
